@@ -1,7 +1,7 @@
 # To find all the numbers of a list that are divisble by a particular element
-list=eval(input("enter a list"))
-print("lsit entered is",list)
-n=int(input("enter any element "))
+list=[10, 20, 30, 40]
+print("list entered is : ",list)
+n=int(input("enter any element :"))
 l2=[]
 for i in list:
     if(i%n==0):

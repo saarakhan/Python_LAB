@@ -24,7 +24,6 @@ def mul(A,B):
         output.append(row)
     return output
 
-
    
 row1=int(input("enter no of rows of first matrix"))
 col1=int(input("enter no of columns of first matrix"))
@@ -39,3 +38,4 @@ print(B)
 x=mul(A,B)
 print("multiplicaion of matrix")
 print(x)
+
